@@ -1,1 +1,23 @@
+html{
+    background-image: linear-gradient(to top, #fbc2eb 0%, #a6c1ee 100%);
+    background-repeat: no-repeat;
+    height: 100%;    
+}
 
+body {
+
+  }
+  
+  h1 {
+    color: white;
+    text-align: center;
+    
+  }
+  
+
+  p {
+    font-family: verdana;
+    font-size: 20px;
+    text-align: center
+;
+  }
