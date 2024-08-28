@@ -1,13 +1,54 @@
 <!DOCTYPE html>
-<html>
-<head>
-<link rel="stylesheet" href="style.css">
-<title>ahser.me</title>
-</head>
-<body>
-<div></div>
-<h1>My Website</h1>
-<p>My name is Asher, I love my girlfriend very much</p>
-</div>
-</body>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Survey Form</title>
+
+    <h1 id="title">Survey Form</h1>
+
+    <p id="description">
+      Please complete the below form to help us improve your experience!
+    </p>
+  </head>
+
+  <body>
+    <form id="survey-form">
+      <label for="name" id="name-label">Please enter your name</label>
+      <input id="name" type="text" required placeholder="name" />
+
+      <label for="email" id="email-label">Please enter your email</label>
+      <input id="email" type="email" required placeholder="email" />
+
+      <label for="number" id="number-label">Please enter your age</label>
+      <input id="number" type="number" min="13" max="120" placeholder="age" />
+
+      <label for="dropdown">What country are you from?</label>
+      <select name="dropdown" id="dropdown">
+        <option value="australia">Australia</option>
+        <option value="australia">United States</option>
+        <option value="australia">United Kingdom</option>
+      </select>
+      <label>How did you hear about us?</label>
+      <label for="radio-option-1">Website</label>
+      <input type="radio" id="radio-option-1" value="Website" name="referral" />
+
+      <label for="radio-option-2">Social Media</label>
+      <input type="radio" id="radio-option-2" value="social" name="referral" />
+
+      <label for="radio-option-3">Word of Mouth</label>
+      <input
+        type="radio"
+        id="radio-option-3"
+        value="wordofmouth"
+        name="referral"
+      />
+
+      <label for="radio-option-4">Other</label>
+      <input type="radio" id="radio-option-4" value="other" name="referral" />
+
+      <label></label>
+      <input />
+    </form>
+  </body>
 </html>
