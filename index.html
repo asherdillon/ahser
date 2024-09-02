@@ -1,1 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="styles.css" />
+  <link
+      rel="icon"
+      type="image/x-icon"
+      href="diamond.ico" />
+
+
+    <title>Survey Form</title>
+  
+    <h1 id="title">Survey Form</h1>
+
+    <p id="description">
+      Please complete the below form to help us improve your experience!
+    </p>
+  </head>
+
+  <body>
+    <div class="container">
+      <form id="survey-form">
+        <label for="name" id="name-label" class="labels"
+          >Please enter your name</label
+        >
+        <input id="name" type="text" required placeholder="name" />
+
+        <label for="email" id="email-label" class="labels"
+          >Please enter your email</label
+        >
+        <input id="email" type="email" required placeholder="email" />
+
+        <label for="number" id="number-label" class="labels"
+          >Please enter your age</label
+        >
+        <input id="number" type="number" min="13" max="120" placeholder="age" />
+
+        <label for="dropdown" class="labels">What country are you from?</label>
+        <select name="dropdown" id="dropdown">
+          <option value="australia">Australia</option>
+          <option value="australia">United States</option>
+          <option value="australia">United Kingdom</option>
+        </select>
+        <label class="labels">How did you hear about us?</label>
+        <label for="radio-option-1">Website</label>
+        <input
+          type="radio"
+          id="radio-option-1"
+          value="Website"
+          name="referral"
+          class="radio"
+        />
+
+        <label for="radio-option-2">Social Media</label>
+        <input
+          type="radio"
+          id="radio-option-2"
+          value="social"
+          name="referral"
+          class="radio"
+        />
+
+        <label for="radio-option-3">Word of Mouth</label>
+        <input
+          type="radio"
+          id="radio-option-3"
+          value="wordofmouth"
+          name="referral"
+          class="radio"
+        />
+
+        <label for="radio-option-4">Other</label>
+        <input
+          type="radio"
+          id="radio-option-4"
+          value="other"
+          name="referral"
+          class="radio"
+        />
+
+        <label></label>
+        <input />
+      </form>
+    </div>
+  </body>
+</html>
 
